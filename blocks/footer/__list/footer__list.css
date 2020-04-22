@@ -1,0 +1,15 @@
+@import url('./__list-tem/footer__list-item.css');
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+@media screen and (max-width : 600px) {
+    .footer__list {
+        flex-direction: column;
+    }
+}

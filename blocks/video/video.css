@@ -1,0 +1,27 @@
+@import url('./block-subtitle/block-subtitle.css');
+@import url('./block-title/block-title.css');
+@import url('./__video-container/video__video-container.css');
+
+.video {
+    max-width: 1184px;
+    margin: 102px auto 0 auto;
+}
+
+@media screen and (max-width : 1100px) {
+    .video {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .video {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .video {
+        width: 90%;
+        margin-top: 40px;
+    }
+}

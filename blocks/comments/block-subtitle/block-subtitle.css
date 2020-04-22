@@ -1,0 +1,28 @@
+.block-subtitle {
+    max-width: 640px;
+    margin: 0 auto 72px auto;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+@media screen and (max-width : 800px) {
+    .block-subtitle {
+        margin-bottom: 60px;
+        width:80%;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .block-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .block-subtitle {
+        width:100%;
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+
+.cover__bg {
+    max-width: 1184px;
+    max-height: 594px;
+    height: 55vw;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+}
+
+@media screen and (max-width : 1100px) {
+    .cover__bg {
+        height: 55vw;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .cover__bg {
+        height: 65vw;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .cover__bg {
+        height: 70vw;
+    }
+}

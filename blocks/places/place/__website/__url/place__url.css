@@ -1,0 +1,7 @@
+.place__url {
+    width: 100%;
+    font-size: 18px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,9 @@
+.comment__image {
+    margin: 0 auto 42px 0;
+}
+
+@media screen and (max-width : 800px) {
+    .comment__image {
+        margin: 0 auto 17px auto;
+    }
+}

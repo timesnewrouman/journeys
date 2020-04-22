@@ -1,0 +1,19 @@
+@import url('./__lang/header__lang.css');
+@import url('./__logo/header__logo.css');
+@import url('./__lang-box/header__lang-box.css');
+
+.header {
+    position: relative;
+    width: 90%;
+    max-width: 1184px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width : 425px) {
+    .header {
+        margin-top: 16px;
+    }
+}

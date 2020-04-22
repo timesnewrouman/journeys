@@ -1,0 +1,21 @@
+.page {
+    background: #2A2C2F;
+    color: #FFFFFF;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Inter', Arial, sans-serif;
+}
+  
+.header__lang,
+.place__url,
+.footer__list-item {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+  
+.header__lang:hover,
+.place__url:hover,
+.footer__list-item:hover {
+  opacity: 0.3;
+}

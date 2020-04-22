@@ -1,0 +1,25 @@
+.block-title {
+    max-width: 800px;
+    margin: 0 auto 48px auto;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media screen and (max-width : 900px) {
+    .block-title {
+        width:100%;
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .block-title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

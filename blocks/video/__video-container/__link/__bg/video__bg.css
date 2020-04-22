@@ -1,0 +1,15 @@
+.video__bg {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
+    background-color: black;
+}
+
+.video__link:hover .video__bg {
+    opacity: 0.8;
+}

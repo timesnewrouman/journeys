@@ -1,0 +1,22 @@
+@import url('./__link/video__link.css');
+
+.video__video-container {
+    max-width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: relative;
+}
+
+@media screen and (max-width : 1100px) {
+    .video__video-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .video__video-container {
+    flex-wrap: wrap;
+    }
+}
