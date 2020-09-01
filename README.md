@@ -1,7 +1,4 @@
-# Yandex.Praktikum
-#### Жигайков Роман
-#### https://timesnewrouman.github.io/journeys/
-###### Спринт 4
+# Journeys
 ###### Версия 1.0
-
-Второй учебный проект: адаптивная вёрстка HTML+CSS.
+Второй учебный проект, целью которого было реализовать адаптивную вёрстку макета по методологии БЭМ.
+#### Демо https://timesnewrouman.github.io/journeys
